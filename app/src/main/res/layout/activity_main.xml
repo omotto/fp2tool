@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/button_setActive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SET ACTIVE" />
+
+            <Button
+                android:id="@+id/button_setStandBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SET STANDBY" />
+
+            <Button
+                android:id="@+id/button_setDebug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SET DEBUG" />
+
+            <Button
+                android:id="@+id/button_getStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GET STATUS" />
+
+            <Button
+                android:id="@+id/button_getFWVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GET FW VERSION" />
+
+            <Button
+                android:id="@+id/button_setThresholds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SET THRESHOLDS" />
+
+            <Button
+                android:id="@+id/button_getThresholds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GET THRESHOLDS" />
+
+            <Button
+                android:id="@+id/button_getDebugInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GET DEBUG INFO" />
+
+            <TextView
+                android:id="@+id/outMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/scan"
+          android:title="@string/scan" />
+    <item android:id="@+id/connect"
+          android:title="@string/connect" />
+    <item android:id="@+id/load"
+          android:title="@string/load" />
+    <item android:id="@+id/save"
+          android:title="@string/save" />
+    <item android:id="@+id/thresholds"
+        android:title="@string/thresholds" />
+<!--
+    <item android:id="@+id/about"
+          android:title="@string/about" />
+-->
+</menu>

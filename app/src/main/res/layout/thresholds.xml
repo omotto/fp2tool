@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewAbsolute_threshold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/absolute_threshold" />
+
+            <EditText
+                android:id="@+id/editTextAbsolute_threshold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewIr_threshold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ir_threshold" />
+
+            <EditText
+                android:id="@+id/editTextIr_threshold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewMagnetic_perturbation_th_x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/magnetic_perturbation_th_x" />
+
+            <EditText
+                android:id="@+id/editTextMagnetic_perturbation_th_x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewMagnetic_perturbation_th_y"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/magnetic_perturbation_th_y" />
+
+            <EditText
+                android:id="@+id/editTextMagnetic_perturbation_th_y"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewMagnetic_perturbation_th_z"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/magnetic_perturbation_th_z"/>
+
+            <EditText
+                android:id="@+id/editTextMagnetic_perturbation_th_z"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewMagnetic_update_max_shift"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/magnetic_update_max_shift"/>
+
+            <EditText
+                android:id="@+id/editTextMagnetic_update_max_shift"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewMagnetic_hysteresis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/magnetic_hysteresis"/>
+
+            <EditText
+                android:id="@+id/editTextMagnetic_hysteresis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewMagnetic_absolute_th_x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/magnetic_absolute_th_x"/>
+
+            <EditText
+                android:id="@+id/editTextMagnetic_absolute_th_x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewMagnetic_absolute_th_y"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/magnetic_absolute_th_y"/>
+
+            <EditText
+                android:id="@+id/editTextMagnetic_absolute_th_y"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewMagnetic_absolute_th_z"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/magnetic_absolute_th_z"/>
+
+            <EditText
+                android:id="@+id/editTextMagnetic_absolute_th_z"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewStable_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stable_time"/>
+
+            <EditText
+                android:id="@+id/editTextStable_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewMagnetic_value_table_life"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/magnetic_value_table_life"/>
+
+            <EditText
+                android:id="@+id/editTextMagnetic_value_table_life"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewIr_variation_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ir_variation_check"/>
+
+            <EditText
+                android:id="@+id/editTextIr_variation_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewIr_linearity_correction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ir_linearity_correction"/>
+
+            <EditText
+                android:id="@+id/editTextIr_linearity_correction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewOptical_free_timeout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/optical_free_timeout"/>
+
+            <EditText
+                android:id="@+id/editTextOptical_free_timeout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewOptical_busy_timeout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/optical_busy_timeout"/>
+
+            <EditText
+                android:id="@+id/editTextOptical_busy_timeout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewEnable_saturated_magnetic_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enable_saturated_magnetic_update"/>
+
+            <EditText
+                android:id="@+id/editTextEnable_saturated_magnetic_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+            <!-- -->
+            <TextView
+                android:id="@+id/textViewEnable_ir_noise_check_mag_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enable_ir_noise_check_mag_update"/>
+
+            <EditText
+                android:id="@+id/editTextEnable_ir_noise_check_mag_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

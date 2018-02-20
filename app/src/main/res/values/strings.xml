@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FP2Tool</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="set">Set</string>
+
+    <!-- title -->
+	<string name="Text">BlueTooth Status: - </string>
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">Connecting</string>
+    <string name="title_connected_to">Connected: </string>
+    <string name="title_not_connected">Not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scanning for devices</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="select_file">Select file</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Enable Bluetooth</string>
+    <string name="scan">Scan for devices</string>
+    <string name="load">Load Thresholds</string>
+    <string name="save">Save Thresholds</string>
+    <string name="thresholds">Set Thresholds</string>
+    <string name="about">About</string>
+    
+    <!-- Dialog -->
+    <string name="ok">Save</string>
+    <string name="cancel">Cancel</string>  
+    <string name="filename">File Name</string>
+    
+    <!-- About -->
+    <string name="app_descrip">This APK allows you the management of WorldSensing car sensor nodes through RFID tool. Send commands and receive data from the node once you are connected.</string>
+    <string name="app_credits">FP2Tools v0.1 by Oscar Motto for WorldSensing\'s purposes.</string>
+    
+    <!-- Thresohlds -->
+    <string name="absolute_threshold">Absolute Threshold</string>
+    <string name="ir_threshold">IR Threshold</string>
+    <string name="magnetic_perturbation_th_x">Magnetic perturbation th X</string>
+    <string name="magnetic_perturbation_th_y">Magnetic perturbation th Y</string>
+    <string name="magnetic_perturbation_th_z">Magnetic perturbation th Z </string>
+    <string name="magnetic_update_max_shift">Magnetic update max shift</string>
+    <string name="magnetic_hysteresis">Magnetic hysteresis</string>
+    <string name="magnetic_absolute_th_x">Magnetic absolute th X</string>
+    <string name="magnetic_absolute_th_y">Magnetic absolute th Y</string>
+    <string name="magnetic_absolute_th_z">Magnetic absolute th Z</string>
+    <string name="stable_time">Stable time</string>
+    <string name="magnetic_value_table_life">Magnetic value table life</string>
+    <string name="ir_variation_check">Ir variation check</string>
+    <string name="ir_linearity_correction">Ir linearity correction</string>
+    <string name="optical_free_timeout">Optical free timeout</string>
+    <string name="optical_busy_timeout">Optical busy timeout</string>
+    <string name="enable_saturated_magnetic_update">Enable saturated magnetic update</string>
+    <string name="enable_ir_noise_check_mag_update">Enable ir noise check mag update</string>
+
+    <string name="button_ok">OK</string>
+    <string name="results">RESULTS</string>
+
+</resources>
